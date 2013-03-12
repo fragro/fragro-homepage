@@ -1,0 +1,279 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="apple-mobile-web-app-capable" content="no" />
+	<meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="programming, research, and existence">
+    <meta property="og:title" content="frankgrove.com"/>
+    <meta name="image" property="og:image" content="fragro.png">  	
+    <title>frankgrove</title>
+</head>
+
+<body>
+  	{{>body}}
+</body>
+
+<template name="body">
+	<div id="cont" class="container">
+		<div class="row-fluid">
+			{{>header}}
+			{{>application}}	
+			{{>theory}}
+			{{>exist}}
+		</div>
+		{{>borg}}
+
+		<footer class="pull-right">
+			<small>frankgrove.com copyleft 2013</small>
+		</footer>
+	</div>
+
+</template>
+
+<template name="header">
+	<div class="item header-item span6">
+			<h1 class="header">fragro v4.2<small> program the future</small></h1>
+		</div>
+		<div class="item header-item span1 offset1">
+			<a class="btn social-btn" href="https://facebook.com/fragro"><i class="icon-facebook icon-3x icon-social"></i></a>
+		</div>
+		<div class="item header-item span1">
+			<a class="btn social-btn" href="https://twitter.com/fragro"><i class="icon-twitter icon-3x icon-social"></i></a>
+		</div>	
+		<div class="item header-item span1">
+			<a class="btn social-btn" href="https://github.com/fragro"><i class="icon-github icon-3x icon-social"></i></a>
+		</div>
+		<div class="item header-item span1">
+			<a class="btn social-btn" href="mailto:fragro@gmail.com"><i class="icon-envelope icon-3x icon-social"></i></a>
+		</div>
+</template>
+
+
+<template name="application">
+	<div class="item span11">
+		    <img src="app.png" class="img-rounded">
+		</div>
+		<div class="item header-item span12">
+			<h1 class="header">proficiencies
+				<small> and preferred languages</small>
+				<span class="label label-info">Agile Development</span>
+				<span class="label label-info">Open Source</span>
+			</h1>
+		</div>	
+		<div class="item span2">
+			<a href="http://www.python.org/"><img alt="python" title="Python" src="python.png"></a>
+		</div>
+		<div class="item span2">
+			<a href="http://www.djangoproject.com/"><img alt="django" title="Django Web Framework" class="img-rounded" src="django.png"></a>
+		</div>
+		<div class="item span2">
+			<a href="http://en.wikipedia.org/wiki/JavaScript"><img alt="javascript" title="Javascript" src="javascript.png"></a>
+		</div>
+		<div class="item span2">
+			<a href="http://meteor.com"><img alt="meteor" title="Meteor Web Framework" class="img-rounded" src="meteor.png"></a>
+		</div>
+		<div class="item span2">
+			<a href="http://www.mongodb.org/"><img alt="meteor" title="Mongo Database" class="img-rounded" src="mongodb_icon.png"></a>
+		</div>
+		<div class="item span1">
+			<a href="http://www.linux.org/"><img alt="linux" title="Linux" src="linux.png"></a>
+		</div>
+		<div class="item span1">
+			<a><img alt="HTML5/CSS3" title="HTML5/CSS3"  src="html5css3.png" class="img-rounded"></a>
+		</div>
+		<div class="item header-item span12">
+			<h1 class="header">application
+				<small> and development</small>
+				<span class="label label-info">Machine Learning</span>
+				<span class="label label-info">Web Apps</span>
+				<span class="label label-info">Intelligent Agents</span>
+				<span class="label label-info">Game Design</span>
+			</h1>
+		</div>
+
+
+
+		<div class="item span3">
+			<div class="photo" id="geobrain">
+		    	<img src="oilbrain.png" class="img-rounded" id="geobrain">
+	            <span class="well well-small photo-label" id="geobrain-caption">
+	            	<h4>GeoBrain<small> (in progress)</small></h4>
+					<p>Innovative mudlogging analysis enhanced with machine learning for more efficient interpretation</p>
+	            </span>
+	        </div>
+		</div>
+		<div class="item span3">
+			<div class="photo" id="oa">
+				<img src="oa_logoblue.png" class="img-rounded" id="oa">
+	            <span class="well well-small photo-label" id="oa-caption">
+	            	<h4><a href="https://github.com/fragro/Open-Assembly.git">OpenAssembly</a></h4>
+					<p>Open Source collaborative decision engine with customized AJAX caching framework.</p>
+	            </span>
+	        </div>
+		</div>
+		<div class="item span3">
+			<div class="photo" id="re">
+		    	<img src="re.png" class="img-rounded" id="re">
+	            <span class="well well-small photo-label" id="re-caption">
+	            	<h4>Restore Education<small> (in progress)</small></h4>
+					<p>Quiz App for online educators and tutors</p>
+	            </span>
+	        </div>
+		</div>
+		</div>
+		<div class="item span2">
+			<div class="photo" id="medi">
+		    	<h3><i class="icon-medkit icon-3x" id="medi"></i></h3>
+	            <span class="well well-small photo-label photo-label-small" id="medi-caption">
+	    		<h4>medibot<small> personalized medical agent for <a href="http://nutraspace.com">nutraspace</a></small></h4>
+	            </span>
+	        </div>
+		</div>	
+
+		<div class="item span2">
+				<div class="photo" id="nuclio">
+					<a href="https://github.com/fragro/nucl.io">
+						<h3><i class="icon-question-sign icon-3x" id="nuclio"></i></h3>
+			            <span class="well well-small photo-label photo-label-small" id="nuclio-caption">
+			    		<h4>nuclio<small> let's play a game</small></h4>
+			            </span>
+	    			</a>
+		        </div>
+		</div>
+
+</template>
+
+
+<template name="theory">
+		<div class="item span11">
+		    <img src="theory.png" class="img-rounded">
+		</div>
+
+		<div class="item header-item span11">
+			<h1 class="header">theory
+				<small> and research</small>
+				<span class="label label-info">Multi-agent Systems</span>
+				<span class="label label-info">Social Networks</span>
+				<span class="label label-info">Electronic Democracy</span>
+				<span class="label label-info">Human Computer Interaction</span>
+			</h1>
+		</div>
+
+		<div class="theory item span11">
+			<blockquote><h3>National Science Foundation Graduate Research Fellowship</h3>
+			<small>2009-2012</small></blockquote>
+		</div>
+		<div class="theory item span11">
+			<blockquote><h3>Multi-Agent Systems for Education and Interactive Entertainment: Design, Use and Experience</h3>
+			<small>F. Grove, N. Jorgenson, S. Sen, B. Brummel, and R. Gamble, Adapting Rewards to Encourage Creativity, in M. Beer, M. Fasli, and D. Richards, eds., IGI Global, 2011.</small>
+		</div>
+		<div class="item span11 theory">
+			<blockquote><a href="http://www.youtube.com/watch?v=RZ69lgQ_Nxc"><h3 class="theory">Advancing Democracy in the 21st Century <i class="icon-link"></i></h3></a>	
+			<small>
+				<span class="label label-success">
+					 <i class="icon-trophy"></i> 2nd Place Finish
+				</span>
+				2011 TU Student Research Colloquium
+			</small></blockquote>
+		</div>
+		<div class="theory item span11">
+			<blockquote><h3>Measuring Creativity in Software Design</h3>
+			<small>C. Nelson, B. Brummel, D.F. Grove, N. Jorgenson, R. Gamble, and S. Sen, in the International Conference on Computational Creativity, 2010</small></blockquote>
+		</div>
+		<div class="theory item span11">
+			<blockquote><h3>Selecting Interaction Protocol and Adapting Behavior</h3>
+			 <small>F. Grove, S. Sen, 2nd International workshop on Agent-based Complex Automated Negotiations (ACAN 2009), Budapest, Hungary.</small></blockquote>
+		</div>
+		<div class="theory item span11">
+			<blockquote><h3>The SEREBRO Project: Fostering Creativity through Collaboration and Rewards</h3>
+			<small>R. Gamble, S. Sen, B. Brummel, F. Grove, N. Jorgenson, D. Guernsey, D. Hampton, D. Baker, and J. Hughes, Presented at EDUMas Workshop, part of 8th Int. Conf. on Autonomous Agents and Multiagent Systems (AAMAS 2009), 2009.</small></blockquote>
+		</div>
+		<div class="theory item span5 offset4">
+			<h1>University of Tulsa</h1>
+		</div>
+		<div class="theory item span6">
+			<blockquote class="pull-right">
+			<h3>Bachelors</h3>
+			<h5>Computer Science</h5>
+			<small>2005 - 2009</small></blockquote>
+			<img class="pull-right" src="TU.png">
+		</div>
+		<div class="theory item span5">
+			<blockquote class="pull-left"><h3>Masters</h3>
+			<h5>Computer Science</h5>
+			<small>2009 - 2012</small></blockquote>
+		</div>
+
+
+</template>
+
+
+<template name="exist">
+	<div class="item span11">
+	    <img src="exist.png" class="img-rounded">
+	</div>	
+	<div class="item header-item span11">
+		<h1 class="header">existence<small> and resistance</small></h1>
+	</div>
+	<div class="item span4">
+		<div class="photo" id="travel">
+			<img src="travel.jpg" class="img-rounded" id="travel">
+            <span class="well well-small photo-label" id="travel-caption">
+            	<h3>explore<small> global citizen</small></h3>
+            </span>
+        </div>
+	</div>
+	<div class="item span3">
+		<div class="photo" id="music">
+			<img src="music.jpg" class="img-rounded" id="music">
+            <span class="well well-small photo-label" id="music-caption">
+            	<h3>listen<small> to it all</small></h3>
+            </span>
+        </div>	
+   	</div>
+	<div class="item span4">
+		<div class="photo" id="democracy">
+			<img src="democracy.jpg" class="img-rounded" id="democracy">
+            <span class="well well-small photo-label" id="democracy-caption">
+            	<h3>democracy<small> is making a comeback</small></h3>
+            	<p>Occupy National Gathering 2012 Pyramidal Democracy Experiment</p>
+            </span>
+        </div>
+   	</div>
+	<div class="item span4">
+		<div class="photo" id="jpl">
+			<img src="jpl.jpg" class="img-rounded" id="jpl">
+            <span class="well well-small photo-label" id="jpl-caption">
+            	<h3>science<small> is awesome</small></h3>
+            	<p>Collaborative Research Meetings at NASA JPL</p>
+            </span>
+        </div>
+   	</div>
+	<div class="item span3">
+		<div class="photo" id="field-testing">
+			<img src="field-testing.jpg" class="img-rounded" id="field-testing">
+            <span class="well well-small photo-label" id="field-testing-caption">
+            	<h3>field testing<small> in a tent</small></h3>
+            	<p>OpenAssembly Deployment at Occupy National Gathering 2012</p>
+            </span>
+        </div>	</div>
+
+</template>
+
+
+<template name="borg">
+	<div class="visible-desktop" id="cubeContainer">
+		<div id="enterprise" class="warp-drive">
+			<div class="torpedo" id="torpedo"></div>
+		</div>
+
+	  <div id="cube" class="animate">
+	    <div></div>
+	    <div></div>
+	    <div></div>
+	    <div></div>
+	    <div></div>
+	    <div></div>
+  </div>
+</template>
